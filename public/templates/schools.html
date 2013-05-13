@@ -1,0 +1,18 @@
+{{#page}}
+
+<ul data-role="listview" data-inset="true" data-icon="false" data-theme="c" data-divider-theme="a">
+
+    {{#each schools}}
+    <li data-role="list-divider">{{title}}</li>
+
+        {{#each departments}}
+        <li>
+            <a href="school-candidates.html" data-prefetch="true" data-transition="slide" data-school-id="{{schoolId}}" data-school-department-id="{{id}}">{{title}}</a>
+        </li>
+        {{/each}}
+
+    {{/each}}
+
+</ul>
+
+{{/page}}

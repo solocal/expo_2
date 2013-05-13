@@ -1,0 +1,31 @@
+{
+    "name": "solocal-expo-2",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*",
+        "hbs": "*",
+        "http-proxy": "*",
+        "gitana": "*",
+        "cloudcms-server": "*",
+        "requirejs": "*"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-contrib-handlebars": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-nodeunit": "*",
+        "grunt-contrib-connect": "*",
+        "grunt-contrib-requirejs": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-csslint": "*",
+        "grunt-contrib-uglify": "*"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": "0.8.x"
+    }
+}

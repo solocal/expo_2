@@ -1,0 +1,47 @@
+DIV.news
+{
+    background-color: white !important;
+}
+
+DIV.news UL LI.listheader
+{
+    text-align: center;
+}
+
+DIV.news UL LI.listitem IMG
+{
+    margin: 10px;
+    border: 1px solid #777;
+    border-radius: 8px;
+    max-height: 100px;
+    max-width: 150px;
+    text-align:center;
+}
+
+DIV.news UL LI.listitem
+{
+    min-height: 100px !important;
+    padding-left: 180px !important;
+}
+
+
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+DIV.newsitem
+{
+    background-color: white !important;
+}
+
+DIV.newsitem H2
+{
+    background-color: white !important;
+}
+
+DIV.newsitem IMG
+{
+    border: 1px solid #777;
+    border-radius: 8px;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="keywords" content="#" />
+<meta name="title" content="#" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="en" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link rel="stylesheet" href="mit.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<script src="modernizr.js"></script>
+
+<script>
+if (!Modernizr.svg) {
+    $('img[src$=".svg"]').each(function()
+    {
+        $(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
+    });
+}
+</script>
+
+    <title>Southern State University Alumni</title>
+
+</head>
+
+<body>
+
+<div data-role="page" data-dom-cache="true" data-theme="a">
+<div data-role="header" class="nav-special" data-position="fixed" data-tap-toggle="false" data-theme="a">
+  <h1>147th Commencement</h1>
+<div data-role="navbar" class="nav-special" data-theme="a">
+<ul>
+<li><a href="index.html" data-transition="slide" id="home" data-icon="custom" data-theme="b"></a></li>
+</ul>
+</div><!-- /navbar -->
+</div><!-- /footer -->
+
+<div data-role="content" data-theme="a">
+
+<br>
+
+<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="a">
+
+  <li data-role="list-divider">Commencement Committee</li>
+
+<li>W. Eric L. Grimson, <em><small>Chancellor and Chair</small></em></li>
+<li>Gayle M. Gallagher, <em><small>Executive Officer for Commencement</small></em></li>
+<li>Prof. Marc A. Baldo</li>
+<li>Prof. Christopher C. Cummins</li>
+<li>Prof. Joseph Ferreira</li>
+<li>Prof. Stephen C. Graves</li>
+<li>Prof. Leslie Keith Norford</li>
+<li>Prof. Margery Resnick</li>
+<li>Prof. Joel Voldman</li>
+<li>Ms. Laura H. Han, Student</li>
+<li>Mr. Gleb M. Akselrod</li>
+<li>Mr. Anshul Bhagi, Student</li>
+<li>Ms. Mary Rose Callahan</li>
+<li>Mr. Peter D. Cummings</li>
+<li>Mr. Ulric J. Ferner, Student</li>
+<li>Ms. Heather M. Fry</li>
+<li>Ms. Gayle M. Gallagher</li>
+<li>Mr. Ted E. Johnson</li>
+<li>Prof. Paul A. Lagace</li>
+<li>Mr. Vrajesh Y. Modi, Student</li>
+<li>Ms. Lulu Wang, Student</li>
+<li>Ms. Samantha G. Wyman, Student</li>
+
+</ul>
+
+
+</div>
+
+<div data-role="footer" data-theme="a">
+<h1>Spring - 2013</h1>
+</div><!-- /footer -->
+</div><!-- /page -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29707182-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

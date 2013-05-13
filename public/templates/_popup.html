@@ -1,0 +1,27 @@
+<div data-role="header" data-theme="a" class="ui-corner-top" data-add-back-btn="false">
+    <h3 align="center">{{title}}</h3>
+</div>
+<div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+
+    {{#if message}}
+        <p align="center">{{message}}</p>
+    {{/if}}
+
+    {{#if body}}
+        {{{body}}}
+    {{/if}}
+
+    <br/>
+
+    <div style="text-align:center">
+
+    {{#if buttons.cancel}}
+        <button data-role="button" data-inline="true" data-rel="back" data-theme="c" class="button-cancel">{{buttons.cancel.title}}</button>
+    {{/if}}
+    {{#if buttons.confirm}}
+        <button data-role="button" data-inline="true" data-rel="back" data-transition="flow" data-theme="b" class="button-confirm">{{buttons.confirm.title}}</button>
+    {{/if}}
+
+    </div>
+
+</div>

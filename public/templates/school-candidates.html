@@ -1,0 +1,28 @@
+{{#page}}
+
+<div class="grads">
+    <h2>{{school.title}}</h2>
+    <p style="white-space:normal">Established {{school.foundationYear}}</p>
+    <p style="white-space:normal"><em>Dean {{school.deanName}}</em></p>
+</div>
+
+<div class="gn-1"><h3>{{degree.name}}</h3></div>
+<br>
+
+<ul data-role="listview" data-inset="true" data-filter="true"
+    data-filter-placeholder="Find your graduate..." data-theme="c" data-divider-theme="a">
+
+    {{#each groupedCandidates}}
+    <li data-role="list-divider">Architecture<span class="ui-li-count">{{candidateCount}}</span></li>
+
+    {{#each candidates}}
+    <li>
+        <a href="#" data-rel="popup" data-transition="slidedown" data-candidate-id="{{id}}">{{firstName}} {{lastName}}</a>
+    </li>
+    {{/each}}
+
+    {{/each}}
+
+</ul>
+
+{{/page}}

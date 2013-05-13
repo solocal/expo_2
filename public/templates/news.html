@@ -1,0 +1,98 @@
+<!-- Begin id socialpanel -->
+<div data-role="panel" id="socialpanel" data-position="right" data-position-fixed="true" data-display="overlay" data-swipe-close="true" data-dismissible="true" data-theme="a">
+
+    <div class="panel-content">
+        <br>
+        <ul>
+            <li><a href="#" data-prefetch="true" data-transition="slide"><img src="icons/facebook.svg" alt="Facebook">Facebook</a></li>
+            <li><a href="#" data-prefetch="true" data-transition="slide"><img src="icons/google.svg" alt="Google+">Google+</a></li>
+            <li><a href="#" data-prefetch="true" data-transition="slide"><img src="icons/linkedin.svg" alt="LinkedIn">LinkedIn</a></li>
+            <li><a href="#" data-prefetch="true" data-transition="slide"><img src="icons/pinterest.svg" alt="Pinterest">Pinterest</a></li>
+            <li><a href="#" data-prefetch="true" data-transition="slide"><img src="icons/twitter.svg" alt="Twitter">Twitter</a></li>
+
+
+        </ul>
+
+    </div><!-- /panel-content -->
+</div><!-- /menupanel -->
+
+<!-- Begin HEADER -->
+<div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="c">
+    <h1>2013 - Michael Uzquiano</h1>
+    <!-- Begin NavBar -->
+    <div data-role="navbar" class="nav-special-2" data-grid="c" data-theme="c">
+        <ul>
+            <li><a href="account.html" data-transition="slide" id="back1" data-icon="custom" data-theme="a">Home</a></li>
+            <li><a href="#popupOfficers" data-rel="popup" data-transition="slidedown" data-position-to="window" data-role="button" id="officers" data-icon="custom" data-iconpos="notext" data-theme="a">Class</a></li>
+            <li><a href="#" data-role="button" id="photos3" data-icon="custom" data-theme="a">Photos</a></li>
+            <li><a href="#socialpanel" data-role="button" id="social" data-icon="custom" data-iconpos="notext" data-theme="a">Social</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div><!-- /header -->
+
+<div data-role="content" class="news" data-theme="c">
+
+    <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="a">
+
+        <li data-role="list-divider" class="listheader">Welcome to the Class of 2013!</li>
+
+        <li class="listitem" data-link-uri="/newsitem.html" data-node-id="{{classchair._doc}}">
+            <h3 class="ui-li-heading">From the Class Chair</h3>
+            <img src="/preview/{{classchair._doc}}/listview?size=200" width="200" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                {{classchair.headline.medium}}
+                <br/>
+                {{classchair.body.medium}}
+            </p>
+        </li>
+
+        <li class="listitem">
+            <h3 class="ui-li-heading">Recent Graduates - Spotlight: {{spotlight.firstName}} {{spotlight.lastName}}</h3>
+            <img src="/preview/{{spotlight._doc}}/spotlight?size=200" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                {{spotlight.about.medium}}
+                <br/>
+                <br/>
+                <b>From:</b> Atlanta, Georgia
+                <br/>
+                <b>Degree:</b> {{spotlight.degreeTitle}} - {{spotlight.schoolTitle}}
+            </p>
+        </li>
+
+        <li class="listitem">
+            <h3 class="ui-li-heading">Come back to the Hill</h3>
+            <img src="photos/_promotion_reunion_weekend.jpg" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                Join us June 5 to June 7 for a Weekend of memories, friendship, networking and enjoyment.
+            </p>
+        </li>
+
+        <li class="listitem">
+            <h3 class="ui-li-heading">Commencement</h3>
+            <img src="photos/_article_graduation.jpg" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                Last Sunday, the 153rd graduating class commencement was presided over
+                in Crocker Hall.
+            </p>
+        </li>
+
+        <li class="listitem">
+            <h3 class="ui-li-heading">Weekend Courses</h3>
+            <img src="photos/_article_continuing_education.jpg" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                Keep your mind sharp.  Continue your education with weekend courses
+                for Alumni.
+            </p>
+        </li>
+
+        <li class="listitem">
+            <h3 class="ui-li-heading">Get Involved</h3>
+            <img src="photos/_article_local_alumni_office.jpg" class="ui-li-thumb">
+            <p class="ul-li-desc">
+                Get involved with your local alumni chapter!
+            </p>
+        </li>
+
+    </ul>
+
+</div>
