@@ -14,13 +14,13 @@ define([
                 "events": "bs"
             },
 
-            "/news.html": {
-                "handler": Handlers.news.bind(this),
+            "/newsitem.html": {
+                "handler": Handlers.newsitem.bind(this),
                 "events": "bs"
             },
 
-            "/newsitem.html": {
-                "handler": Handlers.newsitem.bind(this),
+            "/news.html": {
+                "handler": Handlers.news.bind(this),
                 "events": "bs"
             },
 

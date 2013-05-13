@@ -173,9 +173,9 @@ helpers = helpers || Handlebars.helpers; data = data || {};
     + escapeExpression(((stack1 = ((stack1 = depth0.classchair),stack1 == null || stack1 === false ? stack1 : stack1._doc)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\">\r\n            <h3 class=\"ui-li-heading\">From the Class Chair</h3>\r\n            <img src=\"/preview/"
     + escapeExpression(((stack1 = ((stack1 = depth0.classchair),stack1 == null || stack1 === false ? stack1 : stack1._doc)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/listview?size=200\" width=\"200\" class=\"ui-li-thumb\">\r\n            <p class=\"ul-li-desc\">\r\n                "
+    + "/listview?size=200\" width=\"200\" class=\"ui-li-thumb\">\r\n            <p class=\"ul-li-desc\">\r\n                <b>"
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.classchair),stack1 == null || stack1 === false ? stack1 : stack1.headline)),stack1 == null || stack1 === false ? stack1 : stack1.medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\r\n                <br/>\r\n                "
+    + "</b>\r\n                <br/><br/>\r\n                "
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.classchair),stack1 == null || stack1 === false ? stack1 : stack1.body)),stack1 == null || stack1 === false ? stack1 : stack1.medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\r\n            </p>\r\n        </li>\r\n\r\n        <li class=\"listitem\">\r\n            <h3 class=\"ui-li-heading\">Recent Graduates - Spotlight: "
     + escapeExpression(((stack1 = ((stack1 = depth0.spotlight),stack1 == null || stack1 === false ? stack1 : stack1.firstName)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))

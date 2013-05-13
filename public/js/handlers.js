@@ -95,7 +95,7 @@ define([
 
         // find the spotlight candidate
         var spotlightQuery = {
-            "firstName": "Nirali"
+            "firstName": "Hisao"
         };
         Engine.queryCandidates(spotlightQuery, function(err, spotlights) {
 
@@ -172,6 +172,7 @@ define([
 
             var model = UI.buildPageModel("newsitem");
             model.newsitem = newsitem;
+            model.newsitem.body.long =
 
             UI.executePage(model, function(el) {
 
