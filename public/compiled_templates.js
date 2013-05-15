@@ -221,7 +221,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.newsitem),stack1 == null || stack1 === false ? stack1 : stack1.headline)),stack1 == null || stack1 === false ? stack1 : stack1['long'])),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "</h2>\r\n\r\n    <img src=\"/preview/"
     + escapeExpression(((stack1 = ((stack1 = depth0.newsitem),stack1 == null || stack1 === false ? stack1 : stack1._doc)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/fullview?size=512\">\r\n\r\n    <p>\r\n        "
+    + "/fullview?size=512\" style=\"width: 100%\">\r\n\r\n    <p>\r\n        "
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.newsitem),stack1 == null || stack1 === false ? stack1 : stack1.body)),stack1 == null || stack1 === false ? stack1 : stack1['long'])),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\r\n    </p>\r\n\r\n</div>\r\n";
   return buffer;
