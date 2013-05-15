@@ -24,6 +24,21 @@ define([
                 "events": "bs"
             },
 
+            "/directory.html": {
+                "handler": Handlers.directory.bind(this),
+                "events": "bs"
+            },
+
+            "/2013.html": {
+                "handler": Handlers.twentythirteen.bind(this),
+                "events": "bs"
+            },
+
+            "/profile.html": {
+                "handler": Handlers.profile.bind(this),
+                "events": "bs"
+            },
+
             "/index.html": {
                 "handler": Handlers.home.bind(this),
                 "events": "bs"

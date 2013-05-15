@@ -182,5 +182,44 @@ define([
         });
     };
 
+    r.directory = function(type, match, ui)
+    {
+        if (!match) {
+            return;
+        }
+
+        var model = UI.buildPageModel("directory");
+
+        UI.executePage(model, function() {
+
+        });
+    };
+
+    r.twentythirteen = function(type, match, ui)
+    {
+        if (!match) {
+            return;
+        }
+
+        var model = UI.buildPageModel("2013");
+
+        UI.executePage(model, function() {
+
+        });
+    };
+
+    r.profile = function(type, match, ui)
+    {
+        if (!match) {
+            return;
+        }
+
+        var model = UI.buildPageModel("profile");
+
+        UI.executePage(model, function() {
+
+        });
+    };
+
     return r;
 });
