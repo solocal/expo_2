@@ -127,10 +127,12 @@ define([
 
                 UI.executePage(model, function(el) {
 
+                    /*
                     $("img[class='ui-li-thumb']").each(function() {
                         //$(this).css('margin-top',((120-this.height)/2));
                         $(this).css('margin-left',((150-this.width)/2) + 5);
                     });
+                    */
 
                     $("[data-link-uri]").mouseover(function() {
                         $(this).css("cursor", "pointer");
