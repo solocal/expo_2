@@ -83,6 +83,6 @@ server.after(function(app, callback) {
 
 // start the server
 server.start({
-    "socketTransports": ["xhr-polling"]
+    //"socketTransports": ["xhr-polling"]
 });
 
