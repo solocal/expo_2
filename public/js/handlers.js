@@ -192,6 +192,7 @@ define([
 
         UI.executePage(model, function() {
 
+            //window.trigger('resize');
         });
     };
 

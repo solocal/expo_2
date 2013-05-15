@@ -61,3 +61,8 @@ DIV.newsitem P
     white-space:pre-wrap;
 }
 
+
+/** Prevents header from overlapping text on first load **/
+.ui-page {
+    padding-top: 91px !important;
+}
